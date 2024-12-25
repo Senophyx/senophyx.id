@@ -23,11 +23,12 @@ theme = 'auto'
 colorPalette = 'default'
 hideHeader = false
 
-homeIntroTitle = 'Hi!'
+homeIntroTitle = 'print("Hello")'
 homeIntroContent = """
-My name is Senophyx. I am a programmer from Indonesia. I have experience in various programming languages including Python, JavaScript, HTML, CSS but I prefer to use Python. 
-I know the programming world since 2019 because I didn't have much to do during the Covid-19 pandemic. I am also the founder of an organization called EterNomm, a small programmer organization focused on Open-Source projects. 
-I am also an administrator and developer in several projects and large organizations.
+My name is Senophyx. I am a programmer from Indonesia with many experience as a developer and sysadmin at various organizations and institutions.
+I’ve worked with various programming languages, including Python, JavaScript, HTML, and CSS, but Python is my go-to.
+
+More details about me at [/about](/about) or take a look on my random thoughts and writings at [/posts](/posts).
 """
 
 
