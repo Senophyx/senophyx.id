@@ -92,10 +92,10 @@ unsafe = true
 
 
 [params.giscus]
-enable = true
+enable = false
 repo = "Senophyx/senophyx.id"
-repoid = "R_kgDONhxDKg"
+repoid = "R_kgDONiDZlQ"
 category = "General"
-categoryid = "DIC_kwDONhxDKs4ClgQi"
+categoryid = "DIC_kwDONiDZlc4ClgVy"
 mapping = "pathname"
 theme = "dark"
