@@ -1,0 +1,101 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Senophyx'
+theme = 'typo'
+
+
+[params.umami]
+enable = true
+websiteId = "8e1b0abd-19d9-4991-bb31-4d85fa15c7ae"
+jsLocation = "https://analytics.senophyx.id/script.js"
+
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "Senophyx Personal Website"
+
+showFooter = true
+footerContent = "Copyright &copy; 2023-<script>document.write(new Date().getFullYear());</script> Senophyx. | Using [tomfran/typo](https://github.com/tomfran/typo) theme."
+
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+My name is Senophyx. I am a programmer from Indonesia. I have experience in various programming languages including Python, JavaScript, HTML, CSS but I prefer to use Python. 
+I know the programming world since 2019 because I didn't have much to do during the Covid-19 pandemic. I am also the founder of an organization called EterNomm, a small programmer organization focused on Open-Source projects. 
+I am also an administrator and developer in several projects and large organizations.
+"""
+
+
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+breadcrumbs = true
+
+
+[[params.social]]
+name = "gmail"
+url = "mailto:contact@senophyx.id"
+
+[[params.social]]
+name = "reddit"
+url = "https://reddit.com/user/Senophyx"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Senophyx"
+
+[[params.social]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/16941997"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/Senophyx"
+
+[[params.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/senophyx.id"
+
+
+
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+
+[markup]
+[markup.highlight]
+style = 'github-dark'
+
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[params.giscus]
+enable = true
+repo = "Senophyx/senophyx.id"
+repoid = "R_kgDONhxDKg"
+category = "General"
+categoryid = "DIC_kwDONhxDKs4ClgQi"
+mapping = "pathname"
+theme = "dark"
