@@ -17,7 +17,7 @@ tag = 'tags'
 description = "Senophyx Personal Website"
 
 showFooter = true
-footerContent = "Copyright &copy; 2023-<script>document.write(new Date().getFullYear());</script> Senophyx. | Using [tomfran/typo](https://github.com/tomfran/typo) theme."
+footerContent = "Copyright &copy; 2021-<script>document.write(new Date().getFullYear());</script> Senophyx. | Using [tomfran/typo](https://github.com/tomfran/typo) theme."
 
 theme = 'auto'
 colorPalette = 'default'
@@ -48,16 +48,20 @@ name = "gmail"
 url = "mailto:contact@senophyx.id"
 
 [[params.social]]
-name = "reddit"
-url = "https://reddit.com/user/Senophyx"
-
-[[params.social]]
 name = "github"
 url = "https://github.com/Senophyx"
 
 [[params.social]]
-name = "stackoverflow"
-url = "https://stackoverflow.com/users/16941997"
+name = "reddit"
+url = "https://reddit.com/user/Senophyx"
+
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/Senophyx"
+
+[[params.social]]
+name = "tiktok"
+url = "https://tiktok.com/@Senophyx"
 
 [[params.social]]
 name = "x"
@@ -79,6 +83,10 @@ name = "posts"
 url = "/posts"
 
 [[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
 name = "about"
 url = "/about"
 
@@ -86,6 +94,10 @@ url = "/about"
 [markup]
 [markup.highlight]
 style = 'github-dark'
+
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 5
 
 
 [markup.goldmark.renderer]
