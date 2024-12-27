@@ -1,5 +1,10 @@
 import subprocess
 
+print()
+print('Compiling Hugo...')
+subprocess.run(f'hugo')
+
+print()
 commit_msg = str(input('Commit message : '))
 
 print()
