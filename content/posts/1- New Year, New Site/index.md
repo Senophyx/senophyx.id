@@ -23,7 +23,7 @@ draft: false
 # The Reason
 Actually, I have planned to change the appearance of my old website, but I haven’t found a big reason to change the front-end and also don’t have the best idea to change it.
 
-It’s not that my current website looks bad, it just feels very boring and static. There’s not much that can be changed dynamically like other portfolio websites. But one day a Youtuber named [**NetworkChuck**](https://youtube.com/@NetworkChuck) posted a new video on how to create a blogging website in a complicated way, the programming-style in my opinion ([watch here!](https://www.youtube.com/watch?v=dnE7c0ELEH8)very recommended). I was curious and watched it, and sure enough, I really enjoyed it and was motivated to create my own blogging website.
+It’s not that my current website looks bad, it just feels very boring and static. There’s not much that can be changed dynamically like other portfolio websites. But one day a Youtuber named [**NetworkChuck**](https://youtube.com/@NetworkChuck) posted a new video on how to create a blogging website in a complicated way, the programming-style in my opinion ([watch here!](https://www.youtube.com/watch?v=dnE7c0ELEH8) very recommended). I was curious and watched it, and sure enough, I really enjoyed it and was motivated to create my own blogging website.
 
 That’s where the idea to change the look of my old website came up, I finally had the right reason to replace my old website. I also became more challenged because now it is at the end of 2024, this is the right time to start something new.
 
