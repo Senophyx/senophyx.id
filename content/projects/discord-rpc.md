@@ -13,6 +13,7 @@ tags:
   - discord-rpc
 showTags: true
 hideBackToTop: false
+hidePagination: true
 draft: false
 ---
 
