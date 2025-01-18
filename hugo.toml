@@ -1,0 +1,114 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Senophyx'
+theme = 'typo'
+
+
+[params.umami]
+enable = true
+websiteId = "8e1b0abd-19d9-4991-bb31-4d85fa15c7ae"
+jsLocation = "https://analytics.senophyx.id/script.js"
+
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "Senophyx Personal Website"
+
+showFooter = true
+footerContent = "Copyright &copy; 2021-<script>document.write(new Date().getFullYear());</script> Senophyx. | Using [tomfran/typo](https://github.com/tomfran/typo) theme."
+
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+homeIntroTitle = 'print("Hello")'
+homeIntroContent = """
+My name is Senophyx. I am a programmer from Indonesia with many experience as a developer and sysadmin at various organizations and institutions.
+I’ve worked with various programming languages, including Python, JavaScript, HTML, and CSS, but Python is my go-to.
+
+More details about me at [/about](/about) or take a look on my random thoughts and writings at [/posts](/posts).
+"""
+
+
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+breadcrumbs = true
+
+
+[[params.social]]
+name = "gmail"
+url = "mailto:contact@senophyx.id"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Senophyx"
+
+[[params.social]]
+name = "reddit"
+url = "https://reddit.com/user/Senophyx"
+
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/Senophyx"
+
+[[params.social]]
+name = "tiktok"
+url = "https://tiktok.com/@Senophyx"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/Senophyx"
+
+[[params.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/senophyx.id"
+
+
+
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+
+[markup]
+[markup.highlight]
+style = 'github-dark'
+
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 5
+
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[params.giscus]
+enable = true
+repo = "Senophyx/senophyx.id"
+repoid = "R_kgDONr7-Ow"
+category = "General"
+categoryid = "DIC_kwDONr7-O84CmH__"
+mapping = "pathname"
+theme = "dark"
