@@ -1,8 +1,5 @@
-push:
-	git add . && git commit -m "$(m)" && git push
-
-sync:
-	cd public && git add . && git commit -m "$(m)" && git push
+push: # Build Hugo and push
+	hugo && git add . && git commit -m "$(m)"
 
 run:
 	hugo serve
