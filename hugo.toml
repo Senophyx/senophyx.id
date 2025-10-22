@@ -56,20 +56,8 @@ name = "reddit"
 url = "https://reddit.com/user/Senophyx"
 
 [[params.social]]
-name = "instagram"
-url = "https://instagram.com/Senophyx"
-
-[[params.social]]
-name = "tiktok"
-url = "https://tiktok.com/@Senophyx"
-
-[[params.social]]
 name = "x"
 url = "https://x.com/Senophyx"
-
-[[params.social]]
-name = "bluesky"
-url = "https://bsky.app/profile/senophyx.id"
 
 
 
