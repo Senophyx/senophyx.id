@@ -26,7 +26,12 @@ go.work.sum
 
 # Hugo artifacts
 .hugo_build.lock
-public
+#public
 
 # Obsidian files
 content/.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
