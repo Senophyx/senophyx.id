@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcement on Senophyx</title>
+    <link>/tags/announcement/</link>
+    <description>Recent content in Announcement on Senophyx</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025, New Year, New Site!</title>
+      <link>/posts/1--new-year-new-site/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/1--new-year-new-site/</guid>
+      <description>The story behind my website revamp in the last week of 2024.</description>
+    </item>
+  </channel>
+</rss>

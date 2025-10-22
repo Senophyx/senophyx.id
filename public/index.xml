@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Senophyx</title>
+    <link>/</link>
+    <description>Recent content in Home on Senophyx</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025, New Year, New Site!</title>
+      <link>/posts/1--new-year-new-site/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/1--new-year-new-site/</guid>
+      <description>The story behind my website revamp in the last week of 2024.</description>
+    </item>
+    <item>
+      <title>Discord-RPC</title>
+      <link>/projects/discord-rpc/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/projects/discord-rpc/</guid>
+      <description>An Python wrapper for Discord RPC</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>&lt;p&gt;Hey, I&amp;rsquo;m Senophyx, an Indonesia-based coder with a passion for cool projects. Python is my go-to, but I&amp;rsquo;m also comfy with JavaScript, HTML, and CSS and other programming language. You might&amp;rsquo;ve seen my &lt;a href=&#34;https://github.com/Senophyx/Discord-RPC&#34;&gt;&lt;strong&gt;Discord-RPC&lt;/strong&gt;&lt;/a&gt; project, which got some attention from the Discord community. Also, I founded &lt;a href=&#34;https://github.com/EterNomm&#34;&gt;&lt;strong&gt;EterNomm&lt;/strong&gt;&lt;/a&gt;, a small organization focused on open-source projects.&lt;/p&gt;&#xA;&lt;p&gt;I also have many experience as a sysadmin at various organizations and institutions, managing servers, databases, and users. I&amp;rsquo;m into gaming, music, design, photography, and all things geeky.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
