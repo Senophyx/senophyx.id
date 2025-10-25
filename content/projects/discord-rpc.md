@@ -47,6 +47,9 @@ More examples [here](https://github.com/Senophyx/discord-rpc/tree/main/examples)
 
 # Change Logs
 
+## 5.5
+soon
+
 ## 5.1
 
 **Updates :**
