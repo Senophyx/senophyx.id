@@ -8,12 +8,7 @@ toc: true
 readTime: false
 autonumber: false
 math: true
-tags:
-  - projects
-  - python
-  - discord-rpc
-  - documentation
-showTags: true
+showTags: false
 hideBackToTop: false
 hidePagination: true
 draft: false
