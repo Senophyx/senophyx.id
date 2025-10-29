@@ -41,14 +41,17 @@ rpc.run()
 ```
 `rpc.run()` is only used if you are only running Discord RPC on the current file/instance. If there are other programs/tasks on the current instance, `rpc.run()` does not need to be used.
 
-See documentation [here](https://github.com/Senophyx/Discord-RPC/blob/main/DOCS.md).<br>
+See documentation [here](https://senophyx.id/docs/discord-rpc/).<br>
 More examples [here](https://github.com/Senophyx/discord-rpc/tree/main/examples).
 
 
-# Change Logs
+# Changelog
 
 ## 5.5
-soon
+* PEP 621: Migrating from `setup.py` to `pyproject.toml` by in [#0ffaca5](https://github.com/Senophyx/Discord-RPC/commit/0ffaca5bbf941a1435defac789c966a8d7d3ad5c)
+* feat: rewrite Button, added new ActivityType class, fix minor issues by @SuperZombi in [#49](https://github.com/Senophyx/Discord-RPC/pull/49)
+* Add new types and params by @SuperZombi in [#50](https://github.com/Senophyx/Discord-RPC/pull/50)
+* Add some missing types by @jannuary in [#53](https://github.com/Senophyx/Discord-RPC/pull/53)
 
 ## 5.1
 

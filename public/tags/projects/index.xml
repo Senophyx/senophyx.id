@@ -6,15 +6,8 @@
     <description>Recent content in Projects on Senophyx</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Discord-RPC Documentation</title>
-      <link>/docs/discord-rpc/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/discord-rpc/</guid>
-      <description>Discord-RPC Documentation</description>
-    </item>
     <item>
       <title>Discord-RPC</title>
       <link>/projects/discord-rpc/</link>
