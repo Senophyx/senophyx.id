@@ -234,17 +234,17 @@
   Quick example
   <a class="anchor" href="#quick-example">#</a>
 </h1>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ff7b72">import</span> <span style="color:#ff7b72">discordrpc</span>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#c678dd">import</span> <span style="color:#e06c75">discordrpc</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>rpc <span style="color:#ff7b72;font-weight:bold">=</span> discordrpc<span style="color:#ff7b72;font-weight:bold">.</span>RPC(app_id<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">12345678910</span>)
+</span></span><span style="display:flex;"><span><span style="color:#e06c75">rpc</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">discordrpc</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">RPC</span>(<span style="color:#e06c75">app_id</span><span style="color:#56b6c2">=</span><span style="color:#d19a66">12345678910</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>rpc<span style="color:#ff7b72;font-weight:bold">.</span>set_activity(
-</span></span><span style="display:flex;"><span>      state<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;A super simple rpc&#34;</span>,
-</span></span><span style="display:flex;"><span>      details<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;simple RPC&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#e06c75">rpc</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">set_activity</span>(
+</span></span><span style="display:flex;"><span>      <span style="color:#e06c75">state</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;A super simple rpc&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e06c75">details</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;simple RPC&#34;</span>
 </span></span><span style="display:flex;"><span>    )
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># Required if you only run Discord RPC on this file or current instance.</span>
-</span></span><span style="display:flex;"><span>rpc<span style="color:#ff7b72;font-weight:bold">.</span>run()
+</span></span><span style="display:flex;"><span><span style="color:#7f848e"># Required if you only run Discord RPC on this file or current instance.</span>
+</span></span><span style="display:flex;"><span><span style="color:#e06c75">rpc</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">run</span>()
 </span></span></code></pre></div><p><code>rpc.run()</code> is only used if you are only running Discord RPC on the current file/instance. If there are other programs/tasks on the current instance, <code>rpc.run()</code> does not need to be used.</p>
 <p>See documentation <a href="https://senophyx.id/docs/discord-rpc/">here</a>.<br>
 More examples <a href="https://github.com/Senophyx/discord-rpc/tree/main/examples">here</a>.</p>
@@ -270,7 +270,7 @@ More examples <a href="https://github.com/Senophyx/discord-rpc/tree/main/example
 <ul>
 <li>Added <a href="https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types">Activity Types</a> (Listening, Watching, etc).</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>rpc<span style="color:#ff7b72;font-weight:bold">.</span>set_activity(act_type<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">0</span>)
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#e06c75">rpc</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">set_activity</span>(<span style="color:#e06c75">act_type</span><span style="color:#56b6c2">=</span><span style="color:#d19a66">0</span>)
 </span></span></code></pre></div><ul>
 <li>Added more detailed information in the output.</li>
 </ul>
@@ -283,9 +283,9 @@ More examples <a href="https://github.com/Senophyx/discord-rpc/tree/main/example
 <li>Inputting id is no longer in <code>RPC.set_id</code>. Replaced with inputing inside <code>RPC</code> class.</li>
 </ul>
 <p>Before:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>rpc <span style="color:#ff7b72;font-weight:bold">=</span> discordrpc<span style="color:#ff7b72;font-weight:bold">.</span>RPC<span style="color:#ff7b72;font-weight:bold">.</span>set_id(app_id<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">1234567890</span>)
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#e06c75">rpc</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">discordrpc</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">RPC</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">set_id</span>(<span style="color:#e06c75">app_id</span><span style="color:#56b6c2">=</span><span style="color:#d19a66">1234567890</span>)
 </span></span></code></pre></div><p>After:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>rpc <span style="color:#ff7b72;font-weight:bold">=</span> discordrpc<span style="color:#ff7b72;font-weight:bold">.</span>RPC(app_id<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">1234567890</span>)
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#e06c75">rpc</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">discordrpc</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">RPC</span>(<span style="color:#e06c75">app_id</span><span style="color:#56b6c2">=</span><span style="color:#d19a66">1234567890</span>)
 </span></span></code></pre></div><p><strong>Updates :</strong></p>
 <ul>
 <li>
@@ -310,7 +310,7 @@ More examples <a href="https://github.com/Senophyx/discord-rpc/tree/main/example
 </li>
 <li>
 <p><code>timestamp</code> variable is moved to <code>discordrpc.utils</code>. So if you want to import timestamp variable, use</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ff7b72">from</span> <span style="color:#ff7b72">discordrpc.utils</span> <span style="color:#ff7b72">import</span> timestamp
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#c678dd">from</span> <span style="color:#e06c75">discordrpc.utils</span> <span style="color:#c678dd">import</span> <span style="color:#e06c75">timestamp</span>
 </span></span></code></pre></div></li>
 <li>
 <p><code>button</code> on <code>discordrpc.button</code> changed to <code>Button</code>.</p>
@@ -318,7 +318,7 @@ More examples <a href="https://github.com/Senophyx/discord-rpc/tree/main/example
 <li>
 <p>added <code>date_to_timestamp</code> function on <code>discordrpc.utils</code>. with format <code>%d/%m/%Y-%H:%M:%S</code> or <code>day/month/year-hour:minute:second</code>
 Example :</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>date_to_timestamp(<span style="color:#a5d6ff">&#39;14/06/2025-00:00:00&#39;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#e06c75">date_to_timestamp</span>(<span style="color:#98c379">&#39;14/06/2025-00:00:00&#39;</span>)
 </span></span></code></pre></div></li>
 </ul>
 <h2 class="heading" id="40">
@@ -330,9 +330,9 @@ Example :</p>
 <li>Changing <code>DiscordRPC</code> folder (when you import the package) to <code>discordrpc</code>.
 Before :</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ff7b72">import</span> <span style="color:#ff7b72">DiscordRPC</span>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#c678dd">import</span> <span style="color:#e06c75">DiscordRPC</span>
 </span></span></code></pre></div><p>After :</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ff7b72">import</span> <span style="color:#ff7b72">discordrpc</span>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#c678dd">import</span> <span style="color:#e06c75">discordrpc</span>
 </span></span></code></pre></div><p><strong>Updates :</strong></p>
 <ul>
 <li>No longer using <code>logging</code> package.</li>

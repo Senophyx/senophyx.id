@@ -40,6 +40,7 @@ paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
+
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
@@ -63,8 +64,6 @@ name = "x"
 url = "https://x.com/Senophyx"
 
 
-
-
 [[params.menu]]
 name = "home"
 url = "/"
@@ -84,7 +83,7 @@ url = "/about"
 
 [markup]
 [markup.highlight]
-style = 'github-dark'
+style = 'onedark'
 
 [markup.tableOfContents]
 startLevel = 1
