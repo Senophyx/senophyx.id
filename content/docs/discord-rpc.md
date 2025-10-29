@@ -1,6 +1,7 @@
 ---
 title: Discord-RPC Documentation
 date: 2025-10-28
+summary: Discord-RPC Documentation
 description: Discord-RPC Documentation
 disableComment: true
 toc: true
