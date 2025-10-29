@@ -1,10 +1,10 @@
 ---
-title: Discord-RPC Documentation
+title: Discord-RPC — Documentation
 date: 2025-10-28
-summary: Discord-RPC Documentation
+summary: A lightweight Python client for Discord’s Rich Presence via the local IPC pipe. This library helps you set and update the activity shown on a user’s Discord profile with minimal code.
 description: Discord-RPC Documentation
 disableComment: true
-toc: true
+toc: false
 readTime: false
 autonumber: false
 math: true
@@ -14,9 +14,6 @@ hidePagination: true
 draft: false
 ---
 
-# Discord‑RPC —  Documentation
-
-A lightweight Python client for Discord’s Rich Presence via the local IPC pipe. This library helps you set and update the activity shown on a user’s Discord profile with minimal code.
 
 ---
 
