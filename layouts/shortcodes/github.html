@@ -1,34 +1,36 @@
 <script>
-  (async function() {
-    const REPO = "Senophyx/senophyx.id"; 
-    
-    const url = `https://api.github.com/repos/${REPO}/commits?per_page=1`;
-    const element = document.getElementById('github-commit');
-    element.innerText = `(loading commit)`;
-
-    if (!element) return;
-
-    try {
-      const response = await fetch(url);
-      if (!response.ok) throw new Error('GitHub API Error');
+  document.addEventListener("DOMContentLoaded", function() {
+    (async function() {
+      const REPO = "Senophyx/senophyx.id"; 
       
-      const data = await response.json();
-      const latest = data[0]; 
+      const url = `https://api.github.com/repos/${REPO}/commits?per_page=1`;
+      const element = document.getElementById('github-commit');
+      element.innerText = `(loading commit)`;
       
-      const sha = latest.sha.substring(0, 7);
-      const dateObj = new Date(latest.commit.committer.date);
+      if (!element) return;
       
-      const dateStr = dateObj.toLocaleDateString('en-US', { 
-        year: 'numeric', 
-        month: 'short', 
-        day: 'numeric' 
-      });
-
-      element.innerHTML = `last commit on ${dateStr} @ <a href="https://github.com/Senophyx/senophyx.id/commit/${sha}">${sha}</a>`;
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('GitHub API Error');
+        
+        const data = await response.json();
+        const latest = data[0]; 
+        
+        const sha = latest.sha.substring(0, 7);
+        const dateObj = new Date(latest.commit.committer.date);
+        
+        const dateStr = dateObj.toLocaleDateString('en-US', { 
+          year: 'numeric', 
+          month: 'short', 
+          day: 'numeric' 
+        });
       
-    } catch (error) {
-      console.error(error);
-      element.innerText = "last commit info unavailable";
-    }
-  })();
+        element.innerHTML = `last commit on ${dateStr} @ <a href="https://github.com/Senophyx/senophyx.id/commit/${sha}">${sha}</a>.`;
+        
+      } catch (error) {
+        console.error(error);
+        element.innerText = "last commit info unavailable";
+      }
+    })();
+  });
 </script>

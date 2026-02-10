@@ -1,6 +1,7 @@
 ---
 headless: true
 ---
+{{< github >}}
 
 - menu
     - [about me](/about)
@@ -15,6 +16,4 @@ headless: true
 - TIP
     - "your site is ugly" – [it fucking works](https://motherfuckingwebsite.com/). no one cares about your 67kb of css files.
     - [donate here](/qris) ;)
-    - <p id="github-commit"></p>
-
-{{< github >}}
+    - <span id="github-commit"></span>
