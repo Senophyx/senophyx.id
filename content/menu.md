@@ -4,7 +4,7 @@ headless: true
 
 - menu
     - [about me](/about)
-    - [blog](/post)
+    - [blog](/posts)
     - [projects](/projects)
 
 - links
