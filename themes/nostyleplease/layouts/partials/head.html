@@ -2,7 +2,19 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {{ if .IsPage }} <meta name="description" content="{{ .Summary }}">  {{ end }}
+
+  {{ $faviconPath := (.Site.Params.faviconPath | default "" | absURL) }}
+  <link rel="icon" type="image/ico" href="{{ urls.JoinPath $faviconPath "favicon.ico" }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ urls.JoinPath $faviconPath "favicon-16x16.png" }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ urls.JoinPath $faviconPath "favicon-32x32.png" }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ urls.JoinPath $faviconPath "android-chrome-192x192.png" }}">
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ urls.JoinPath $faviconPath "android-chrome-512x512.png" }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ urls.JoinPath $faviconPath "apple-touch-icon.png" }}">
+
+  {{ if .IsPage }}
+  <meta name="description"
+    content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}Senophyx.id{{ end }}" />
+  {{ end }}
 
   <title>
     {{ if not .IsHome }}
