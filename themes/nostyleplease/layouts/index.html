@@ -7,6 +7,9 @@
     {{- end -}}
 </header>
 {{ .Content }}
-{{ partial "menu_item.html" (dict "context" . "collection" $.Site.Data.menu.entries) }}
+
+{{ with .Site.GetPage "menu" }}
+    {{ .Content | replaceRE "<p>|</p>" "" | safeHTML }}
+{{ end }}
 
 {{ end }}
