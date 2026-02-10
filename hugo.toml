@@ -7,6 +7,8 @@ theme = "nostyleplease"
 unsafe = true
 
 [params]
+    faviconPath = "favicon/"
+
     [params.theme_config]
         appearance = "dark"
         back_home_text = "../"
