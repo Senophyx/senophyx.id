@@ -1,1 +1,5 @@
+---
+headless: true
+---
+
 Senophyx @ 2021-<script>document.write(new Date().getFullYear());</script>.
