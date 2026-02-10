@@ -15,7 +15,7 @@
         if (!response.ok) throw new Error('Network response was not ok');
         
         const jsonData = await response.json();
-        const timeText = jsonData.data.human_readable_total_including_other_language;
+        const timeText = jsonData.total_human;
         
         element.innerText = timeText;
       } catch (error) {
