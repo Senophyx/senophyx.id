@@ -1,3 +1,13 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'Senophyx'
+baseURL = "/"
+languageCode = "en-us"
+title = "Senophyx"
+theme = "nostyleplease"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+    [params.theme_config]
+        appearance = "dark"
+        back_home_text = "../"
+        date_format = "02-01-2006"
