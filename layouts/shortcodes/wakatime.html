@@ -3,6 +3,7 @@
     (async function() {
       const apiUrl = 'https://wakatime-api.senophyx.id'; 
       const element = document.getElementById('coding-time');
+      element.innerText = "(loading)";
 
       if (!element) {
         console.error("can't find element!");
