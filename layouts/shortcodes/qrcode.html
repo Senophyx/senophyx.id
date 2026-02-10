@@ -1,0 +1,28 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+{{- $text := .Get "text" | default "https://senophyx.id" -}}
+{{- $size := .Get "size" | default 128 -}}
+{{- $colorDark := .Get "color" | default "#0000" -}}
+{{- $colorLight := .Get "bg" | default "#ffff" -}}
+{{- $uniqueID := .Ordinal -}}
+
+<div id="qrcode-{{ $uniqueID }}" class="qrcode-container"></div>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        new QRCode(document.getElementById("qrcode-{{ $uniqueID }}"), {
+            text: "{{ $text }}",
+            width: "{{ $size }}",
+            height: "{{ $size }}",
+            colorDark: "{{ $colorDark }}",
+            colorLight: "{{ $colorLight }}",
+            correctLevel: QRCode.CorrectLevel.L
+        });
+    });
+</script>
+
+<style>
+    .qrcode-container {
+        margin: 10px 0;
+    }
+</style>
