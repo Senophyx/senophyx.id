@@ -1,5 +1,7 @@
 ---
 disableDate: true
+title: QRIS ITB'25
+ogImage: qris-itb.jpg
 ---
 
 <div style="overflow-y: auto; display: inline-block; padding: 10px;">

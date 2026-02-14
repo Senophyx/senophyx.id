@@ -1,5 +1,7 @@
 ---
 disableDate: true
+ogTitle: pls donate
+ogImage: qris.png
 ---
 
 # Thank You For Your Support!
