@@ -11,4 +11,4 @@ disableDate: true
 </div>
 
 
-qr not loaded properly? <a href="/qris/qris.png">click here</a>
+qr not loaded properly? <a href="/qris.png">click here</a>
